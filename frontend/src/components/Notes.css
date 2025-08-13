@@ -1,0 +1,164 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Poppins:wght@400;600&display=swap');
+
+body {
+  background: #eee;
+  font-family: 'Poppins', sans-serif;
+}
+
+.main {
+  padding-bottom: 100px;
+}
+
+.header {
+  background-color: #f5ba13;
+  padding: 1px 40px;
+  color: white;
+  font-family: 'Baloo 2', cursive;
+  font-weight: 600;
+  font-size: 1rem;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.create-note {
+  background: white;
+  padding: 20px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgba(138, 137, 137, 0.3);
+  width: 480px;
+  margin: 30px auto;
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+}
+
+.create-note input,
+.create-note textarea {
+  width: 100%;
+  border: none;
+  padding: 10px;
+  outline: none;
+  font-size: 1.1em;
+  resize: none;
+  font-family: inherit;
+}
+
+.add-btn {
+  position: absolute;
+  right: 50px;
+  bottom: -20px;
+  background: #f5ba13;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.notes-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: start;
+  padding: 20px;
+}
+
+.note {
+  background: white;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px 20px;
+  width: 240px;
+  margin: 16px;
+  position: relative;
+  word-wrap: break-word;
+  font-family: 'Poppins', sans-serif;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+}
+
+.note p {
+  font-size: 0.9em;
+  margin-bottom: 20px;
+}
+
+.delete-btn {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border: none;
+  background: none;
+  color: #f5ba13;
+  font-size: 0.8em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-btn{
+  position: absolute;
+  right: 75px;
+  bottom: 10px;
+  border: none;
+  background: none;
+  color: #f5ba13;
+  font-size: 0.8em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.cancel-btn{
+  position: absolute;
+  left: 30px;
+  bottom: 20px;
+  border: none;
+  background: none;
+  color: #f5ba13;
+  font-size: 0.8em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* vertically center */
+}
+
+.logo-img {
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+}
+
+.logo {
+  font-size: 1.6em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-texts {
+  display: flex;
+  gap: 24px;
+}
+
+.nav-item {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: normal;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.nav-item:hover {
+  color: black;
+}
+

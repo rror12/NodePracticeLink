@@ -1,0 +1,8 @@
+/* src/index.css or App.css */
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
